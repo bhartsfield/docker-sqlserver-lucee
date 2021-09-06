@@ -1,0 +1,8 @@
+{
+    "dependencies":{
+        "orgluceeextmssqljdbc": "lex:https://ext.lucee.org/com.microsoft.sqlserver.mssql-jdbc-6.5.4.lex"
+    },
+    "scripts":{
+        "onServerInstall": "install"
+    }
+}
