@@ -40,17 +40,17 @@ The commandbox/lucee server is defined in the docker-compose.yml file under the 
 
 Examples in index.cfm (from the top down) are
 
--- Creates a new user record using data from randomuser.me
--- Reads all user records ordered by the primary key ASC (the default ordering method)
--- Reads the user record with an Id of 1
--- Reads a count of user records
--- Reads a count of user records where the LastName is "Turk"
--- Reads all user records ordered by LastName ASC then FirstName ASC
--- Reads all user records where the LastName is NOT "Turk"
--- Reads the top 1 record ordered by Id DESC
--- Updates the latest user record's FirstName, LastName and EmailAddress to random values from randomuser.me
--- Reads the top 1 record ordered by Id DESC (to confirm the updates)
--- Deletes the newest user record
+- Creates a new user record using data from randomuser.me
+- Reads all user records ordered by the primary key ASC (the default ordering method)
+- Reads the user record with an Id of 1
+- Reads a count of user records
+- Reads a count of user records where the LastName is "Turk"
+- Reads all user records ordered by LastName ASC then FirstName ASC
+- Reads all user records where the LastName is NOT "Turk"
+- Reads the top 1 record ordered by Id DESC
+- Updates the latest user record's FirstName, LastName and EmailAddress to random values from randomuser.me
+- Reads the top 1 record ordered by Id DESC (to confirm the updates)
+- Deletes the newest user record
 
 ## ./docker-compose.yml
 
