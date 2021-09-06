@@ -5,7 +5,7 @@
 This is a quick proof of concept to demonstrate two items I recently mentioned to colleagues.
 
 - The first item was that it is quite easy to spin up a SQL Server instance inside of a docker container and seed it with an initialization SQL script.
-- The other item came up when I was show a number of DAOs with repetitive code for basic CRUD operations for single DB tables. The only real differences where the table names and the column lists. So, instead of duplicating everything else, a single base dao could centralize the bulk of the code and the individual DAOs could just extend it and define their table and columns.
+- The other item came up when I was shown a number of DAOs with repetitive code for basic CRUD operations for single DB tables. The only real differences where the table names and the column lists. So, instead of duplicating everything else, a single base dao could centralize the bulk of the code and the individual DAOs could just extend it and define their table and columns.
 
 So, I threw this together to spin up a SQL Server docker container that, when up and running, contains a test database with a users table and multiple user records.
 
